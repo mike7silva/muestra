@@ -1,0 +1,271 @@
+html {
+  background-image: url("../img/fondo1.jpg");
+}
+header {
+  vertical-align: top;
+  margin: 20px 20px 0px 20px;
+  height: 120px;
+}
+.headerdiv {
+  display: inline-block;
+}
+h1 {
+  vertical-align: top;
+  margin: 30px 0px 30px 0px;
+  display: inline-block;
+}
+#title {
+  font-size: 50px;
+  font-family: cursive;
+  color: #F5F6CE;
+  letter-spacing: 1px;
+  margin-left: 180px;
+  text-shadow: 3px 2px black;
+}
+#centraalacademy {
+  width: 200px;
+  display: inline-block;
+}
+#profile {
+  align-content: center;
+  font-size: 35px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin-left: 920px;
+}
+nav {
+  background-image:url("../img/fondogris.jpg");
+  display: inline-block;
+  width: 200px;
+  height: 520px;
+  text-align: center;
+  margin: 20px 20px 0px 20px;
+  padding: 0px;
+  vertical-align: top;
+}
+#exercises {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+button {
+  width: 180px;
+  height: 25px;
+  background-image: url("../img/fondonegro.jpg");
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#button {
+  color: white;
+}
+section {
+  width: 550px;
+  display: inline-block;
+  text-align: center;
+  border-color: 2px gray;
+  margin-top: 50px;
+  padding: 0px;
+  vertical-align: top;
+}
+h2 {
+  color: #F5F6CE;
+  text-shadow: 3px 2px black;
+}
+h3 {
+  margin-top: 50px;
+}
+#frontend {
+  width: 530px;
+}
+aside {
+  display: inline-block;
+  text-align: center;
+  align: relative;
+  vertical-align: middle;
+  margin-top: 130px;
+}
+footer {
+  margin: 0px 20px 0px 20px;
+  background-image: url("../img/fondogris.jpg");
+  height: 80px;
+}
+#social {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 20px;
+  width: 40px;
+}
+h4{
+  display: inline-block;
+  width: 950px;
+}
+p {
+  align: left;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 20px;
+}
+#levelpage {
+  text-align: center;
+  background-image: url("../img/fondolevel.jpg");
+}
+#menu {
+  color: white;
+  font-size: 20px;
+  float: left;
+}
+#level {
+  margin-left: -80px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px black;
+}
+#leveltext {
+  color: white;
+}
+#levelbutton {
+  margin-top: 20px;
+}
+#levelimage {
+  width: 250px;
+}
+#apodo {
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  height: 50px;
+  text-shadow: 3px 2px black;
+}
+#fibonaccipage {
+  text-align: left;
+  background-image: url("../img/fondofibo.jpg");
+}
+#fibo {
+  margin-top: 70px;
+  margin-left: -80px;
+  font-size: 50px;
+  font-family: monospace;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px black;
+}
+#fibotext {
+  font-family: monospace;
+  font-size: 30px;
+  margin-left: 30px;
+  color: white;
+}
+#fibobutton {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#fiboimage {
+  margin-left: 550px;
+  width: 250px;
+}
+#serie {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  height: 50px;
+  text-shadow: 3px 2px black;
+}
+#palpage {
+  text-align: left;
+  background-image: url("../img/palindromo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pal {
+  margin-top: 200px;
+  margin-left: -80px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px black;
+}
+#paltext {
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 30px;
+  color: white;
+}
+#palbutton {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#Word {
+  display: block;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  height: 50px;
+  text-shadow: 3px 2px black;
+}
+#newWord {
+  display: block;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  height: 50px;
+  text-shadow: 3px 2px black;
+}
+
+
+
+
+
+
+#pirampage {
+  background-image: url("../img/piramide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#piram {
+  margin-top: 60px;
+  margin-left: -80px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px black;
+}
+#piramtext {
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 30px;
+  color: white;
+}
+#pirambutton {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#piramide {
+  display: block;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  height: 50px;
+  text-shadow: 3px 2px black;
+}
+#pre {
+  display: block;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: inherit;
+  height: 50px;
+  text-shadow: 3px 2px black;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html id="herenpage">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <meta http-equiv="x-UA-Compatible" content="ie-edge">
+    <title>HERENCIA</title>
+    <link rel="stylesheet" type="text/css "href="assets/css/styles.css">
+  </head>
+
+  <body>
+    <a id="menu" href="index.html">Menú principal</a>
+    <h1 id="heren">REPARTIENDO LA HERENCIA!!!</h1>
+    <h2 id="herentext">Si dividimos la herencia de la abuela en partes iguales
+    para Juan y para Jose, cual es el capital de cada uno sumando el dinero que ya tenian???</h2>
+
+    <form class="form">
+      <label id="hlabel" for="hinput1">Capital de Juan</label>
+      <input id="hinput1" type="number" name="juan">
+      <label id="hlabel" for="hinput2">Capital de Jose</label>
+      <input id="hinput2" type="number" name="jose">
+      <label id="hlabel" for="hinput3">Monto de la Herencia</label>
+      <input id="hinput3" type="number" name="heren">
+      <input type="button" name="hbutton" value="Muestranos el capital" onclick="herencia(this.form)">
+    </form>
+
+    <h5 id="capitaljuan"></h5>
+    <h5 id="capitaljose"></h5>
+    <script src="assets/javascript/scripts.js"></script>
+  </body>
+</html>

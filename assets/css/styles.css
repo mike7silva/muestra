@@ -222,8 +222,40 @@ p {
   text-shadow: 3px 2px black;
 }
 
+#herenpage {
+  background-image: url("../img/fondoher.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#heren {
+  margin-top: 60px;
+  margin-left: -80px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px black;
+}
+#herentext {
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 30px;
+  color: white;
+}
+
+#hlabel {
+  color: white;
+}
 
 
+#hinput {
+}
+
+h5 {
+  display: block;
+  color: white;
+  font-size: 25px;
+}
 
 
 

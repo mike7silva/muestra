@@ -56,6 +56,31 @@ function palindrome () {
   }
 }
 
+function herencia(form) {
+
+    var juan=parseInt(form.hinput1.value);
+    var jose=parseInt(form.hinput2.value);
+    var herencia=parseInt(form.hinput3.value);
+
+    console.log(juan, jose, herencia)
+
+
+    var capital=(juan+jose+herencia);
+
+    console.log("capital= "+capital);
+
+    var capitaljose=jose+(herencia*.5);
+
+    console.log("capitaljose= "+capitaljose);
+
+    var capitaljuan=(juan+(herencia/2));
+
+    console.log("capitaljuan= "+capitaljuan);
+    document.getElementById("capitaljuan").innerHTML = "Capital de Juan= $"+capitaljuan;
+
+    document.getElementById("capitaljose").innerHTML = "Capital de Jose= $"+capitaljose;
+
+}
 
 
 
